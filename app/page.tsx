@@ -365,8 +365,8 @@ export default function Home() {
               <div className="lg:col-span-6 relative mt-8 lg:mt-0">
                 <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-[#eff4ff] border border-[#dce9ff]">
                   <Image
-                    src="https://lh3.googleusercontent.com/aida/AEtjO1W2WQzRTBs7jOOpIMHmCDU6Omb_BzEaOGTms44IMgB6iE40NOqKhlyApUVFzSLqAmR-d13lHBDpcJo-BMylqoiZcqNIqvmbsWYSP9kPmfRjlkPblv_lo6tNNHSTwC65V7mxz4VgBjJxfNAv_07cRaWwdDSt2EmJM5AQZG7w5namyOdlRRyp43A4nte7sRlOeNxzPZUKY-77Jz3PyLghsM3hv-FaK3NCbNZkIKqEvFlQbx8sM-OqroMA"
-                    alt="Pusat packing dan fulfillment pesanan e-commerce Indonesia"
+                    src="/team-agros.jpg"
+                    alt="Tim operasional dan fulfillment Agros Group"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover object-center transform hover:scale-105 transition-transform duration-700"
