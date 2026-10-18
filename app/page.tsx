@@ -1046,7 +1046,7 @@ export default function Home() {
                         Email Resmi Onboarding
                       </span>
                       <span className="text-base font-extrabold text-[#0f2744]">
-                        support@agrosgroup.id
+                        wildan.arta05@gmail.com
                       </span>
                       <span className="text-xs text-[#76777d] mt-0.5">
                         Kirim daftar katalog & proposal kerjasama
@@ -1143,16 +1143,14 @@ export default function Home() {
                             type="button"
                             key={cat.id}
                             onClick={() => setCategory(cat.id)}
-                            className={`flex flex-col items-center justify-center p-3 rounded-2xl border transition-all text-center ${
-                              isSelected
-                                ? "border-[#006398] bg-[#eff4ff] shadow-sm text-[#006398]"
-                                : "border-[#e2eaf5] bg-white text-[#45464d] hover:border-[#006398]"
-                            }`}
+                            className={`flex flex-col items-center justify-center p-3 rounded-2xl border transition-all text-center ${isSelected
+                              ? "border-[#006398] bg-[#eff4ff] shadow-sm text-[#006398]"
+                              : "border-[#e2eaf5] bg-white text-[#45464d] hover:border-[#006398]"
+                              }`}
                           >
                             <CategoryIcon
-                              className={`w-6 h-6 ${
-                                isSelected ? "text-[#006398]" : "text-[#76777d]"
-                              }`}
+                              className={`w-6 h-6 ${isSelected ? "text-[#006398]" : "text-[#76777d]"
+                                }`}
                             />
                             <span className="text-xs font-bold mt-1.5 leading-tight">
                               {cat.label}
@@ -1261,11 +1259,10 @@ export default function Home() {
                   {/* Submit Action */}
                   <button
                     type="submit"
-                    className={`w-full h-12 rounded-xl font-heading text-sm font-bold shadow-md transition-all flex items-center justify-center gap-2 ${
-                      formSubmitted
-                        ? "bg-[#009668] text-white"
-                        : "bg-[#0f2744] hover:bg-[#006398] text-white"
-                    }`}
+                    className={`w-full h-12 rounded-xl font-heading text-sm font-bold shadow-md transition-all flex items-center justify-center gap-2 ${formSubmitted
+                      ? "bg-[#009668] text-white"
+                      : "bg-[#0f2744] hover:bg-[#006398] text-white"
+                      }`}
                   >
                     {formSubmitted ? (
                       <CheckCircle2 className="w-5 h-5" />
