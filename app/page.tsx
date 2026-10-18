@@ -1037,22 +1037,25 @@ export default function Home() {
                     </div>
                   </a>
 
-                  <div className="flex items-start gap-4 bg-white p-5 rounded-2xl shadow-sm border border-[#e2eaf5]">
-                    <div className="w-11 h-11 rounded-2xl bg-[#eff4ff] flex items-center justify-center text-[#006398] shrink-0">
+                  <a
+                    href="mailto:wildan.arta05@gmail.com"
+                    className="flex items-start gap-4 bg-white p-5 rounded-2xl shadow-sm border border-[#e2eaf5] hover:border-[#006398] transition-colors group"
+                  >
+                    <div className="w-11 h-11 rounded-2xl bg-[#eff4ff] flex items-center justify-center text-[#006398] shrink-0 group-hover:scale-105 transition-transform">
                       <Mail className="w-6 h-6 text-[#006398]" />
                     </div>
                     <div className="flex flex-col">
                       <span className="text-xs uppercase text-[#76777d] font-bold">
                         Email Resmi Onboarding
                       </span>
-                      <span className="text-base font-extrabold text-[#0f2744]">
+                      <span className="text-base font-extrabold text-[#0f2744] group-hover:text-[#006398] transition-colors">
                         wildan.arta05@gmail.com
                       </span>
                       <span className="text-xs text-[#76777d] mt-0.5">
                         Kirim daftar katalog & proposal kerjasama
                       </span>
                     </div>
-                  </div>
+                  </a>
 
                   <div className="flex items-start gap-4 bg-white p-5 rounded-2xl shadow-sm border border-[#e2eaf5]">
                     <div className="w-11 h-11 rounded-2xl bg-[#eff4ff] flex items-center justify-center text-[#006398] shrink-0">
@@ -1232,7 +1235,7 @@ export default function Home() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="toko@gmail.com"
+                        placeholder="wildan.arta05@gmail.com"
                         className="h-11 px-3.5 bg-white text-[#0f2744] text-sm rounded-xl border border-[#c6c6cd] focus:outline-none focus:ring-2 focus:ring-[#006398] focus:border-transparent transition-all"
                       />
                     </div>
