@@ -520,9 +520,9 @@ export default function Home() {
                   </div>
                   <div className="bg-white p-4 rounded-2xl shadow-sm border border-[#e2eaf5] flex flex-col">
                     <span className="font-heading text-2xl lg:text-3xl text-[#0f2744] font-extrabold">
-                      12 Hub
+                      Hub Depok
                     </span>
-                    <span className="text-xs text-[#76777d] font-medium mt-1">Strategis RI</span>
+                    <span className="text-xs text-[#76777d] font-medium mt-1">Pusat Strategis</span>
                   </div>
                   <div className="bg-white p-4 rounded-2xl shadow-sm border border-[#e2eaf5] flex flex-col">
                     <span className="font-heading text-2xl lg:text-3xl text-[#006398] font-extrabold">
@@ -1066,7 +1066,7 @@ export default function Home() {
                         Hub Operasional Utama
                       </span>
                       <span className="text-sm font-bold text-[#0f2744]">
-                        Jakarta • Bandung • Surabaya • Yogyakarta • Solo • Medan • Palembang
+                        Depok, Jawa Barat
                       </span>
                       <span className="text-xs text-[#76777d] mt-0.5">
                         Tersedia drop point seller & gudang penampungan lokal
@@ -1345,16 +1345,14 @@ export default function Home() {
             {/* Operational Hubs */}
             <div className="flex flex-col gap-3">
               <span className="text-xs uppercase font-bold text-[#0f2744] tracking-wider">
-                Hub Operasional Indonesia
+                Hub Operasional
               </span>
               <div className="flex flex-col gap-2 text-xs text-[#45464d]">
                 <span className="font-semibold text-[#006398]">
-                  • Hub DKI Jakarta (Cengkareng & Cakung)
+                  • Hub Utama Depok (Jawa Barat)
                 </span>
-                <span>• Hub Jawa Barat (Bandung & Bekasi)</span>
-                <span>• Hub Jawa Timur (Rungkut, Surabaya)</span>
-                <span>• Hub D.I. Yogyakarta & Solo</span>
-                <span>• Hub Sumatera (Medan & Palembang)</span>
+                <span>• Drop Point & Layanan Pick Up Seller</span>
+                <span>• Jangkauan Pengiriman Seluruh Indonesia</span>
               </div>
             </div>
 
